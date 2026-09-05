@@ -2,6 +2,7 @@ package serpuloex;
 
 import arc.graphics.g2d.Draw;
 import mindustry.game.Team;
+import mindustry.gen.Building;
 import mindustry.graphics.Layer;
 import mindustry.world.Block;
 import mindustry.world.Tile;
@@ -18,6 +19,7 @@ public class RoofBlock extends Block {
         solid = false; // Позволяет наземным юнитам проходить под крышей
         hasShadow = true;
         buildVisibility = BuildVisibility.shown;
+        buildType = RoofBuild::new; // newBuilding() теперь final в API — используем buildType
     }
 
     // Запрещаем постройку/удаление крыш вне режима редактирования
@@ -31,13 +33,8 @@ public class RoofBlock extends Block {
         return RoofMode.isRoofMode() && super.canBreak(tile);
     }
 
-    // Без этого переопределения движок использует стандартный Building,
-    // и весь код из RoofBuild ниже (draw/canInteract/tapped) никогда не вызывается.
-    @Override
-    public Building newBuilding() {
-        return new RoofBuild();
-    }
-
+    // Без buildType = RoofBuild::new (см. конструктор) движок использовал бы
+    // стандартный Building, и весь код из RoofBuild ниже никогда бы не вызывался.
     public class RoofBuild extends Building {
         @Override
         public void damage(float amount) {

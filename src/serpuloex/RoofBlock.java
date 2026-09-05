@@ -48,12 +48,6 @@ public class RoofBlock extends Block {
             Draw.reset();
         }
 
-        @Override
-        public boolean canInteract() {
-            // Требование: метод проверяет текущий режим
-            return RoofMode.isRoofMode() && super.canInteract();
-        }
-        
         // Перехват тапов (нажатий) по зданию
         @Override
         public void tapped() {

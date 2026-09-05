@@ -1,0 +1,13 @@
+type: Wall
+name: Lead Wall
+description: A basic wall made from lead.
+health: 300
+size: 1
+requirements: [
+  lead/6
+]
+category: defense
+research: lead
+researchCost: [
+  lead/80
+]

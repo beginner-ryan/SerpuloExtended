@@ -1,0 +1,17 @@
+type: RoofBlock
+name: Iron Roof
+description: Прочная крыша из железа. Редактируется только в режиме Roof Mode.
+size: 2
+health: 300
+
+# Наши кастомные параметры из Java автоматически прочитаются отсюда!
+roofHeight: 5.5
+damageReduction: 0.5
+shieldPenetration: false
+
+requirements: [
+  iron-ingot/30
+  copper/20
+]
+category: effect
+research: iron-wall

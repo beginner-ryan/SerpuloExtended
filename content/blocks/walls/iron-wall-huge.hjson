@@ -1,0 +1,13 @@
+type: Wall
+name: Huge Iron Wall
+description: A massive wall made from iron ingots.
+health: 4050
+size: 3
+requirements: [
+  iron-ingot/54
+]
+category: defense
+research: iron-wall-large
+researchCost: [
+  iron-ingot/1200
+]

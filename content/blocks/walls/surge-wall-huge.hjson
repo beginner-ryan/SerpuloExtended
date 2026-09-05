@@ -1,0 +1,14 @@
+type: Wall
+name: Huge Surge Wall
+description: A massive wall that releases lightning when hit.
+health: 8280
+size: 3
+lightningChance: 0.05
+requirements: [
+  surge-alloy/54
+]
+category: defense
+research: surge-wall-large
+researchCost: [
+  surge-alloy/1200
+]

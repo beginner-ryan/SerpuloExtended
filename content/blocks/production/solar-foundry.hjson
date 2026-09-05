@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Solar Foundry
+description: Fuses titanium, iron ingots, and gold ingots into solar alloy. Requires pyratite and power.
+size: 3
+health: 620
+craftTime: 180
+outputItem: solar-alloy/1
+craftEffect: smeltsmoke
+updateEffect: none
+consumes: {
+  power: 2
+  items: [
+    titanium/1
+    iron-ingot/1
+    gold-ingot/1
+    pyratite/1
+  ]
+}
+requirements: [
+  copper/90
+  iron-ingot/45
+  gold-ingot/30
+]
+category: crafting
+research: gold-forge
+researchCost: [
+  iron-ingot/150
+  gold-ingot/100
+]

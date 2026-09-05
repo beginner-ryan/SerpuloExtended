@@ -1,0 +1,19 @@
+type: Drill
+name: Advanced Mechanical Drill
+description: An improved mechanical drill. Mines resources up to titanium.
+size: 2
+tier: 3 # Can mine titanium
+drillTime: 200
+requirements: [
+  copper/25
+  iron-ore/20
+  gold-ore/15
+]
+category: production
+research: pneumatic-drill
+researchCost: [
+  copper/175
+  lead/175
+  iron-ore/50
+  gold-ore/30
+]

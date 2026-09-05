@@ -1,0 +1,13 @@
+type: Wall
+name: Large Lead Wall
+description: A larger wall made from lead.
+health: 1200
+size: 2
+requirements: [
+  lead/24
+]
+category: defense
+research: lead-wall
+researchCost: [
+  lead/500
+]

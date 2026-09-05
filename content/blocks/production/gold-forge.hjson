@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Gold Forge
+description: Smelts gold ore into gold ingots. Each ingot requires two ore and one coal.
+size: 2
+health: 400
+craftTime: 75
+outputItem: gold-ingot/1
+craftEffect: smeltsmoke
+updateEffect: none
+consumes: {
+  items: [
+    gold-ore/2
+    coal/1
+  ]
+}
+requirements: [
+  copper/50
+  iron-ingot/20
+  gold-ore/25
+]
+category: crafting
+research: iron-forge
+researchCost: [
+  iron-ingot/100
+  gold-ore/80
+]

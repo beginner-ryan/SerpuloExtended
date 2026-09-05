@@ -1,0 +1,17 @@
+type: Wall
+name: Huge Plastanium Wall
+description: A massive insulated wall that absorbs lasers.
+health: 4500
+size: 3
+insulated: true
+absorbLasers: true
+requirements: [
+  plastanium/45
+  metaglass/18
+]
+category: defense
+research: plastanium-wall-large
+researchCost: [
+  plastanium/1000
+  metaglass/400
+]

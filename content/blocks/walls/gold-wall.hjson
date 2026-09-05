@@ -1,0 +1,13 @@
+type: Wall
+name: Gold Wall
+description: A durable wall made from gold ingots.
+health: 850
+size: 1
+requirements: [
+  gold-ingot/8
+]
+category: defense
+research: copper-wall
+researchCost: [
+  gold-ingot/80
+]

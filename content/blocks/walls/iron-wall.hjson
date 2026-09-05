@@ -1,0 +1,13 @@
+type: Wall
+name: Iron Wall
+description: A sturdy wall made from iron ingots.
+health: 550
+size: 1
+requirements: [
+  iron-ingot/6
+]
+category: defense
+research: copper-wall
+researchCost: [
+  iron-ingot/80
+]

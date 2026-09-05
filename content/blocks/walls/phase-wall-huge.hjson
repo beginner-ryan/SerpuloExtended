@@ -1,0 +1,15 @@
+type: Wall
+name: Huge Phase Wall
+description: A massive wall that can deflect incoming projectiles.
+health: 5400
+size: 3
+chanceDeflect: 10
+flashHit: true
+requirements: [
+  phase-fabric/54
+]
+category: defense
+research: phase-wall-large
+researchCost: [
+  phase-fabric/1200
+]

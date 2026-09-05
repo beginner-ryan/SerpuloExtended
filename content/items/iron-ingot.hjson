@@ -1,0 +1,5 @@
+type: material
+name: Iron Ingot
+description: A sturdy ingot for defensive structures and ammunition.
+color: b9c6cf
+research: iron-ore

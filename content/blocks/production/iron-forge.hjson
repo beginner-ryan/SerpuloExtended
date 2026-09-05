@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Iron Forge
+description: Smelts iron ore into iron ingots. Each ingot requires two ore and one coal.
+size: 2
+health: 360
+craftTime: 60
+outputItem: iron-ingot/1
+craftEffect: smeltsmoke
+updateEffect: none
+consumes: {
+  items: [
+    iron-ore/2
+    coal/1
+  ]
+}
+requirements: [
+  copper/40
+  iron-ore/25
+]
+category: crafting
+research: kiln
+researchCost: [
+  copper/150
+  iron-ore/80
+]

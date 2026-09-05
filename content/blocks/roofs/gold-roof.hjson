@@ -1,0 +1,17 @@
+type: RoofBlock
+name: Gold Roof
+description: Прочная крыша из золота. Редактируется только в режиме Roof Mode.
+size: 2
+health: 340
+
+# Наши кастомные параметры из Java автоматически прочитаются отсюда!
+roofHeight: 5.5
+damageReduction: 0.6
+shieldPenetration: false
+
+requirements: [
+  gold-ingot/30
+  copper/20
+]
+category: effect
+research: gold-wall

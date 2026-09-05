@@ -1,0 +1,34 @@
+type: ArcTurret
+name: Skyhammer Mortar
+description: Тяжелая мортира. Снаряды игнорируют силовые поля.
+size: 3
+health: 800
+range: 220
+reload: 60
+
+# Наш кастомный параметр турели
+shieldPenetration: true
+
+ammoTypes: {
+  graphite: {
+    # Ссылка на наш кастомный класс пули (чтобы пробивала щиты).
+    # Парсер контента ищет тип по простому имени класса, а не по бинарному
+    # имени JVM — поэтому "ArcTurret$ArcProjectile" не резолвился.
+    type: ArcProjectile
+    damage: 65
+    speed: 4
+    lifetime: 55
+    sprite: shell
+    
+    # Можно переопределить пробитие для конкретного снаряда
+    shieldPenetration: true
+  }
+}
+
+requirements: [
+  lead/150
+  silicon/80
+  graphite/50
+]
+category: turret
+research: duo

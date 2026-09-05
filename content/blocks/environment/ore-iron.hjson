@@ -1,0 +1,9 @@
+type: OreBlock
+name: Iron Ore
+description: A deposit of iron ore.
+itemDrop: iron-ore
+variants: 3
+
+oreDefault: true
+oreThreshold: 0.81
+oreScale: 23.47

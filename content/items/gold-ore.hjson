@@ -1,0 +1,5 @@
+type: material
+name: Gold Ore
+description: A heavy, shiny ore. Smelt it into gold ingots.
+color: ffd700
+research: lead

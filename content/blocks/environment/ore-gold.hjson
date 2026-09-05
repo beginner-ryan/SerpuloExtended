@@ -1,0 +1,9 @@
+type: OreBlock
+name: Gold Ore
+description: A deposit of gold ore.
+itemDrop: gold-ore
+variants: 3
+
+oreDefault: true
+oreThreshold: 0.81
+oreScale: 23.47

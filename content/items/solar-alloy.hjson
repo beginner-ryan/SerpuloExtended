@@ -1,0 +1,5 @@
+type: material
+name: Solar Alloy
+description: A rare alloy of titanium, iron, and gold. Used in advanced artillery.
+color: e7c36f
+research: gold-ingot

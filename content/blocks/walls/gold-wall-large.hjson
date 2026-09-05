@@ -1,0 +1,14 @@
+type: Wall
+name: Large Gold Wall
+description: A larger, durable wall made from gold ingots.
+health: 2100
+size: 2
+requirements: [
+  gold-ingot/24
+]
+category: defense
+research: gold-wall
+researchCost: [
+  gold-ingot/800
+  iron-ingot/200
+]

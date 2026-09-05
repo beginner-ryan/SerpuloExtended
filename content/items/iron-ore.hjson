@@ -1,0 +1,5 @@
+type: material
+name: Iron Ore
+description: A sturdy base ore. Smelt it into iron ingots.
+color: 8c9aa6
+research: copper
